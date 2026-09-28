@@ -1,159 +1,92 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00d4ff,100:00ff88&height=200&section=header&text=SAIF%20ULLAH&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=SOC%20Engineer%20%7C%20Wazuh%20Ambassador%20%7C%20Cybersecurity%20Specialist&descAlignY=58&descColor=00d4ff&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:08111d,55:146b78,100:f4bb72&amp;height=185&amp;section=header&amp;text=SAIF%20ULLAH&amp;fontSize=52&amp;fontColor=ffffff&amp;fontAlignY=38&amp;desc=SOC%20ANALYST%20%2F%20SECURITY%20ENGINEER&amp;descAlignY=61&amp;descColor=e7f8f7" alt="Saif Ullah — SOC Analyst and Security Engineer" width="100%" />
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Associate+Security+Engineer+%40+Ebryx;Security+Engineer+%40+ITFortress+NZ;Wazuh+Ambassador+%F0%9F%8C%8D+Representing+Pakistan;Threat+Detection+%7C+SIEM+%7C+SOAR+%7C+Blue+Team" alt="Typing SVG" />
-</p>
+<a href="https://saifsoc.github.io/"><img src="https://img.shields.io/badge/EXPLORE_PORTFOLIO-146B78?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" alt="Portfolio" /></a>
+<a href="https://wazuh.com/ambassadors/saif-ullah/"><img src="https://img.shields.io/badge/WAZUH_AMBASSADOR-F4BB72?style=for-the-badge&amp;logoColor=08111D" alt="Wazuh Ambassador" /></a>
+<a href="https://saifsoc.github.io/Saif%20Resume.pdf"><img src="https://img.shields.io/badge/DOWNLOAD_R%C3%89SUM%C3%89-32486B?style=for-the-badge&amp;logo=adobeacrobatreader&amp;logoColor=white" alt="Download résumé" /></a>
 
-<p align="center">
-  <a href="mailto:Saifullah62012@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/saifsocx/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="tel:+923146201244"><img src="https://img.shields.io/badge/Phone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
-</p>
+<br /><br />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=20&amp;duration=2800&amp;pause=950&amp;color=69DDD7&amp;center=true&amp;vCenter=true&amp;width=750&amp;lines=SOC+Analyst+%40+DWP+Group;Security+Engineer+%7C+Detection+Engineering;Wazuh+Ambassador+%7C+Pakistan;SIEM+%E2%86%92+Threat+Intel+%E2%86%92+SOAR+%E2%86%92+Response" alt="SOC Analyst, Security Engineer, Wazuh Ambassador" />
+
+**Lahore, Pakistan · Threat detection · Incident response · SOC automation**
 
 </div>
 
 ---
 
-## 🛡️ About Me
+### Who I am
 
-```yaml
-Name        : Saif Ullah
-Role        : Security Engineer / SOC Analyst
-Location    : Lahore, Pakistan
-Education   : Bachelor of Information Technology — University of the Punjab (2022–2026)
-Status      : Wazuh Ambassador 🌍 | Active in Open-Source Security Community
-Focus       : Threat Detection, SIEM/SOAR, Incident Response, Blue Team Operations
+I build practical security monitoring systems and investigate the alerts they produce. My work spans Wazuh detection rules, endpoint and network telemetry, threat intelligence, and automation that carries useful evidence into an incident case.
+
+```text
+CURRENT ROLE    SOC Analyst L1 · DWP Group
+COMMUNITY       Wazuh Ambassador · Pakistan
+EDUCATION       BS Information Technology · University of the Punjab
+FOCUS           Detection engineering · SIEM/SOAR · Blue team operations
 ```
 
----
+### The SOC workflow I work on
 
-## 💼 Professional Experience
+```text
+Endpoint / Network / Cloud
+          ↓
+    Wazuh detections
+          ↓
+  n8n + OpenCTI enrichment
+          ↓
+ DFIR-IRIS case + Slack alert
+```
 
-### 🔐 Associate Security Engineer (Trainee) — *Ebryx Pvt. Ltd* | Lahore, PK | Feb 2026 – Present
-- Handling **endpoint, network, and cloud security** alerts
-- Performing alert triage, log analysis, and incident investigation
-- Supporting **SIEM/SOAR** integrations and detection rule tuning
-- Collaborating with L2/L3 SOC teams to enhance detection and response
+### Selected work
 
----
+| Project | What I built | Stack |
+|:--|:--|:--|
+| **360 Fortress — FYP** | Multi-layer cyber defense system with 40+ use cases across endpoint, network, cloud, AI and LLM security. | Wazuh, SOAR, threat intelligence |
+| **SOC investigation workflow** | Alert enrichment, case creation and notification workflow for practical triage. | Wazuh, n8n, OpenCTI, DFIR-IRIS, Slack |
+| **AmaraTechIT — cloud SIEM** | Wazuh deployment on AWS with BYOD onboarding, FIM, Microsoft 365, multi-tenancy and domain access. | AWS, Wazuh, Microsoft 365 |
+| **Wazuh client branding** | Customized login, favicons, banners, dashboard titles and report logos for an Angola client. | Wazuh UI, branding |
+| **SOC home lab** | Detection lab with endpoint and network signals, automation, dashboards and access separation. | Wazuh, Suricata, SOAR, Grafana |
 
-### 🇳🇿 Security Engineer — *ITFortress* | Wellington, New Zealand | Mar 2025 – Present
-- Promoted from SOC Analyst → Security Engineer within **6 months** based on performance
-- Designed, deployed, and managed **Wazuh SIEM** for multi-tenant SOC environments
-- Executed use cases: **FIM, brute-force detection (SSH/RDP), PowerShell exploitation, web shell detection**
-- Integrated **Suricata, Snort, pfSense, Sophos, Sysmon, VirusTotal, AbuseIPDB**
-- Automated SOC workflows using **Shuffle (SOAR), n8n, Slack, WhatsApp, email alerts**
+### Experience
 
----
+| Role | Organization | Dates | Focus |
+|:--|:--|:--|:--|
+| **SOC Analyst L1** | DWP Group, Lahore | Aug 2026 – Present | Alert investigation, Wazuh tuning, log integrations and case workflows. |
+| **Security Engineer** | IT Fortress, remote / New Zealand | Mar 2025 – Jun 2026 | Multi-tenant Wazuh SIEM, custom detection use cases and SOC automation. |
+| **Associate Security Engineer** | Ebryx Pvt Ltd, Lahore | Feb 2026 – Jul 2026 | EDR/MDR triage, log analysis, investigation notes and escalation. |
+| **SOC Analyst** | ITSOLERA Pvt Ltd, Islamabad | Jun 2025 – Aug 2026 | Client monitoring, detection rules, documentation and SOC training. |
+| **Wazuh Ambassador** | Wazuh Community, Pakistan | Jan 2026 – Present | Technical content, labs and open-source SOC use cases. |
 
-### 🛡️ SOC Analyst (Project-based) — *ITSOLERA Pvt* | Islamabad, PK | Jun 2025 – Present
-- Led SOC operations and handled **real-time client security monitoring**
-- Managed incident response, threat intelligence, and SOC documentation
-- Delivered SOC training and contributed to **SOC product development**
-- Deployed Wazuh with detection rules for **phishing, anomaly detection, and network threats**
+### Tools I use
 
----
+| Area | Tools |
+|:--|:--|
+| **SIEM & detection** | Wazuh · Microsoft Sentinel · ELK Stack · Sysmon |
+| **Automation & cases** | n8n · Shuffle · DFIR-IRIS · TheHive |
+| **Endpoint & network** | CrowdStrike Falcon · VIPRE · Suricata · Snort · pfSense · Sophos |
+| **Cloud & intelligence** | AWS · Azure · Microsoft 365 · OpenCTI · VirusTotal · AbuseIPDB · MISP |
 
-### 🌐 Wazuh Ambassador — *Wazuh* | California, US | Jan 2026 – Present
+### Training and credentials
 
-[![Wazuh Ambassador](https://img.shields.io/badge/🛡️_Official_Wazuh_Ambassador-Pakistan_🇵🇰-00adef?style=for-the-badge)](https://wazuh.com/ambassadors/saif-ullah/)
+- **Cisco Networking Academy:** Junior Cybersecurity Analyst Career Path, Ethical Hacker, Cyber Threat Management, Cybersecurity Essentials and Networking Basics.
+- **Microsoft Learn modules:** Microsoft Sentinel, KQL, Defender for Endpoint and Defender XDR.
+- **Other training:** Google cybersecurity courses, TryHackMe challenges and SOC labs.
 
-> *"I like Wazuh because it turns scattered security data into clear, actionable insights. It gives me hands-on control to detect threats, monitor systems centrally, and build a scalable SOC using real-world scenarios rather than just theory."*
+### Find me online
 
-- **Officially selected** as Wazuh Ambassador, representing Pakistan globally 🇵🇰
-- Deployed real-time Wazuh environments for organizations in **USA, New Zealand, and Pakistan**
-- Contributing to Wazuh community via technical content, labs, and SOC use cases
-- Promoting **Wazuh SIEM adoption** and best practices internationally
-- Available for: Blogposts, Webinars, Tutorials, Community Support
-
----
-
-### 💻 IT Support Trainee — *Akhuwat* | Lahore, PK | Jul – Aug 2025
-- Assisted IT operations, DHCP, ticketing systems, and administrative tasks
-- Configured and deployed **network switches**
-- Integrated **Wazuh with switches and firewall devices**
-
----
-
-## 🚀 Projects
-
-### 🏠 SOC Home Lab (SIEM-Based)
-> Built a **Wazuh-based SOC Lab** for threat detection using Wazuh, Suricata, firewall, SOAR, Grafana, and multi-tenancy
-
----
-
-### 🎓 Cyber Defense System — FYP
-> **"360 Fortress – Multi-Layer Cyber Protection System"** — Built in collaboration with a New Zealand-based company using Wazuh SIEM and SOAR. Covers endpoint, network, cloud, AI, and LLM security with **40+ use cases**, threat intelligence integration, and automated response.
-
----
-
-### 🎨 Wazuh Client Branding — Angola
-> Customized complete Wazuh dashboard UI: login design, favicons, banners, report logos, and dashboard titles
-
----
-
-### ☁️ Cloud SIEM Deployment — USA Client (AmaraTechIT)
-> Deployed Wazuh SIEM on **AWS from scratch**. Implemented BYOD onboarding, FIM, Microsoft 365 integration, multi-tenant setup, custom branding, and domain configuration
-
----
-
-## 🛠️ Technical Skills
+| Portfolio | Community | Credentials | Contact |
+|:--|:--|:--|:--|
+| [Live portfolio](https://saifsoc.github.io/) | [Wazuh Ambassador](https://wazuh.com/ambassadors/saif-ullah/) | [Credly badges](https://www.credly.com/users/saifsocx/badges/credly) | [Email](mailto:Saifullah62012@gmail.com) |
+| [GitHub projects](https://github.com/SaifSOCX) | [LinkedIn](https://www.linkedin.com/in/saifsocx/) | [ArcX verification](https://arcx.io/verify-certificate?id=29a3b387665bd77a87bffa6371f244c3d21b1564&k=b1bf8970eb59426aa3e6e22570e98cd3) | [+92 314 6201244](tel:+923146201244) |
 
 <div align="center">
 
-| Domain | Tools & Technologies |
-|---|---|
-| **SIEM** | Wazuh, Splunk |
-| **IDS/IPS** | Suricata, Snort |
-| **SOAR** | Shuffle, n8n |
-| **EDR/XDR** | CrowdStrike, Sysmon |
-| **Network** | Wireshark, pfSense, Sophos |
-| **Cloud** | AWS (SIEM Deployment) |
-| **Threat Intel** | VirusTotal, AbuseIPDB |
-| **Monitoring** | Grafana |
-| **Dev** | Python, Bash, PHP, HTML/CSS, JavaScript, React |
+<a href="https://saifsoc.github.io/"><strong>Explore my portfolio →</strong></a> · <a href="https://saifsoc.github.io/Saif%20Resume.pdf"><strong>Download résumé ↓</strong></a>
 
-</div>
+<br /><br />
 
----
-
-## 📜 Certifications
-
-<div align="center">
-
-| Issuer | Certifications |
-|---|---|
-| **Google** | Professional Cybersecurity, AI Essentials, Technical Support, AI Seekho |
-| **Cisco** | Intro to Cybersecurity, Essentials, Threat Management, Awareness, Junior Analyst Path |
-| **Microsoft** | AI Prompt Engineering, Defender for Endpoint, Application & Device Threat |
-| **TryHackMe** | Advent of Cyber 2024, HackfinityBattle, Advent of Cyber 2025 |
-| **Udemy** | Linux Security Basics |
-| **DigiSkills** | Freelancing, WordPress |
-| **Forage** | Cybersecurity Job Simulation |
-
-</div>
-
----
-
-## 🌐 Languages
-
-`English` &nbsp; `Urdu` &nbsp; `Punjabi` &nbsp; `Saraiki`
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SaifSOCX&show_icons=true&theme=github_dark&hide_border=true&title_color=00d4ff&icon_color=00ff88&text_color=ffffff" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SaifSOCX&theme=github-dark-blue&hide_border=true&ring=00d4ff&fire=00ff88&currStreakLabel=00d4ff" height="165"/>
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,50:00d4ff,100:0d1117&height=120&section=footer&text=Let's+Secure+the+Digital+World+Together&fontSize=18&fontColor=ffffff&fontAlignY=65&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:f4bb72,55:146b78,100:08111d&amp;height=100&amp;section=footer" alt="" width="100%" />
 
 </div>
